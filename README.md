@@ -71,28 +71,22 @@ Organise your contribution as follows (one folder per region/model):
 
 ---
 
-## 6) AI Usage — Principles & Good Practice
+## 5) AI Tools and Usage
 
-You may use:
-## **IDE Plugins & AI Coding Assistants**
+**Here are is a (non-exhaustive) list of potential tools you may want to try:**
+IDE Plugins & AI Coding Assistants
 `GitHub Copilot, Sourcegraph Cody, Cursor, Windsurf (formerly Codeium), Roo Code, JetBrains AI Assistant, Codeium, Tabnine, Amazon CodeWhisperer, AskCodi, Blackbox AI, Visual Copilot, Qodo, DeepSeek Coder, CodeGeeX, TabbyML, FauxPilot, Continue.dev, Augment, Cline, Pieces`
 
----
-
-## **Standalone AI IDEs**  
+Standalone AI IDEs
 `Cursor, Windsurf, Zed, Replit Ghostwriter, Codium, CodeStory`
 
----
-
-## **General AI Chatbots for Coding and Web Search**  
+General AI Chatbots for Coding and Web Search 
 `ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Microsoft Copilot, Perplexity AI, Grok`
 
----
-
-## **Specialized / Emerging Tools**  
+Specialized / Emerging Tools
 `Claude Code, OpenAI Codex, Mutable.ai, Refact.ai, StarCoder, Devin AI, Phind, Sourcery, AI Commits`
 
-## Anything else!
+Anything else!
 
 **Good practice**
 - Do your best to review and validate **AI‑generated code, text, and figures**. Part of the aim of this study is to evaluate how well these tools work when used by researchers with a range of domain and modelling expertise.
@@ -105,7 +99,7 @@ You may use:
 
 ---
 
-## 7) Documenting AI Performance (What to Record)
+## 6) Documenting AI Performance (What to Record)
 
 In your submission survey, you will be asked to include your reflections on how well the AI tools you used worked. Please keep track of:
 
@@ -119,7 +113,7 @@ In your submission survey, you will be asked to include your reflections on how 
 
 ---
 
-## 8) Validation & Benchmarking
+## 7) Validation & Benchmarking
 
 - Use the provided **diagnostic plot templates** to validate model outputs.  
 - Quantitative evaluation will follow the **FishMIP model skill procedure** to compare across models and regions.  
@@ -131,7 +125,7 @@ Place validation artefacts (plots, metrics, notes) under:
 ---
 
 
-## 10) Submission Instructions 
+## 8) Submission Instructions 
 
 **Placed all of the following into a zip file and upload them via the survey link below:**
 - Model files (execution‑ready)
@@ -143,14 +137,15 @@ During the survey you will be prompted to include a short description of your ap
 
 ---
 
-## 11) Survey
+## 9) Survey
 
 Please complete the post‑project survey: **[\[Survey Link\]](https://csiro.qualtrics.com/jfe/form/SV_6opBbEzhMbvLHOC)**
+You can preview the survey content here: https://github.com/s-spillias/TranslatingMEMs/blob/main/SurveyPreview.md
 
 ---
 
 
-## 12) Workflow Overview
+## 10) Workflow Overview
 
 ```mermaid
 flowchart TB
@@ -183,7 +178,7 @@ flowchart TB
     class Steps1,Steps2,Steps3,Steps4,Steps5 steps
 ```
 
-## Key Resources Provided in Project Directory
+## 11) Key Resources Provided in Project Directory
 
 ### 📄 **Data Files**
 - `EwE_files/` - EwE model data from Dahood et al. 2020
@@ -237,7 +232,7 @@ flowchart TB
 
 **Note**: This workflow integrates AI-assisted coding throughout all phases. Participants should leverage LLM coding agents to navigate data processing, model calibration, and protocol implementation steps.
 
-## 13) Contacts & Support
+## 12) Contacts & Support
 
 Questions about modelling or AI tool usage? Get in touch:
 - **scott.spillias@csiro.au**
