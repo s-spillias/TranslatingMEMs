@@ -1,55 +1,47 @@
-# AI‑Assisted Marine Ecosystem Modelling — Participant README
 
+# AI‑Assisted Marine Ecosystem Modelling — Participant README
 This README provides a single, cohesive guide for contributing to the AI‑assisted marine ecosystem modelling experiment. It blends the study protocol, modelling requirements, and AI usage guidelines into one workflow so you can get started quickly and submit consistently formatted results.
 
 ---
 
 ## 1) Purpose & Scope
-
 We are testing how AI tools can support typical marine ecosystem modelling workflows—**model development, translation between frameworks, and simulation/diagnostics**—and whether AI assistance can produce **reliable, comparable outputs** across model types.
 
-You may either:
-- **Translate an existing model** (e.g., the *Dahood Southern Ocean model with sea ice*) into a different framework (preferred), **or**
-- **Develop/translate a model for a region of your choice** using the same inputs/diagnostics standards (if you would not otherwise participate).
+If you would like to participate, the **strong preference is to translate the provided EwE model** into a different modelling framework, *mizer*. If you want to do something else, please contact the facilitators first.
 
-**Time commitment:** up to **20 self‑monitored hours**.  
-– If you finish early, report your time.  
+**Time commitment:** approximately **24 hours total** (20 hours modelling + 4 hours reviewing).
+– If you finish early, report your time.
 – If you reach 20 hours without finishing, submit what you have.
 
-**Timeline:**  
-- **Start:** September 30
-- **Submission:** January 30, 2026
+**Timeline:**
+- **Start:** Mid-November 2025
+- **Submission:** February 28, 2026
 
-**AI access:** We will provide API keys for public AI tools (initial limit ~AUD 150 or USD equivalent). You can request more credit if needed.
+**AI access:** We will provide API keys for public AI tools (initial limit ~AUD 150 or USD equivalent) per participant. Contact facilitators if you need more credit and budget allows.
 
 ---
 
 ## 2) Participation Overview
-
 You will:
-1. **Download** the provided input files and context for an Ecopath with EcoSim model in the Southern Occean (Dahood et al. 2019).
+1. **Download** the provided input files and context for an Ecopath with EcoSim model in the Southern Ocean (Dahood et al. 2019).
 2. **Develop** a mizer model based on the same data and study.
-3. Run analogous **simulations** to those implemented in Dahood et al. using FishMIP/ISIMIP3a conventions.  
-4. Produce **diagnostics** (validation plots, skill metrics) as described in the accompanying pdf.
-5. **Document** your use of AI (tools, tasks, performance, limitations).  
+3. Run analogous **simulations** to those implemented in Dahood et al. using FishMIP/ISIMIP3a conventions.
+4. Produce **diagnostics** (validation plots, skill metrics) following ISIMIP and FishMIP guidance.
+5. **Document** your use of AI (tools, tasks, performance, limitations).
 6. **Submit** and **Survey** via an anonymous (10-15 minute) survey, which includes an upload link.
 7. **Review** another submission for quality and effectiveness.
----
 
+---
 Steps 1-6 are expected to take **no longer** than 20 active hours of work between now and February 28, 2026. Step 7 is expected to take less than 4 hours and will occur sometime in March 2026.
 
 ## 3) Accepted Model Frameworks
-
-We would recommend that you use **mizer** as the target modelling framework (even if you may be unfamiliar with it). 
-
+We would recommend that you use **mizer** as the target modelling framework (even if you may be unfamiliar with it).
 If you would much prefer to use another framework, please contact scott.spillias@csiro.au and kieran.murphy@utas.edu.au to discuss.
 
 ---
 
 ## 4) Repository & Folder Structure
-
-Organise your contribution as follows (one folder per region/model):
-
+Organise your contribution using the **mandatory folder structure** below (one folder per region/model):
 ```
 /YourRegionName/
 │
@@ -113,36 +105,33 @@ In your submission survey, you will be asked to include your reflections on how 
 
 ---
 
+
 ## 7) Validation & Benchmarking
-
-- Use the provided **diagnostic plot templates** to validate model outputs.  
-- Quantitative evaluation will follow the **FishMIP model skill procedure** to compare across models and regions.  
+- Validate model outputs using ISIMIP and FishMIP guidance.
+- Quantitative evaluation will follow the **FishMIP model skill procedure** to compare across models and regions.
 - Participants will **peer‑review** one or two other submissions for qualitative checks (e.g., “Does it pass the smell test?”).
-
 Place validation artefacts (plots, metrics, notes) under:  
 `/YourRegionName/Diagnostics/`
 
 ---
 
-
-## 8) Submission Instructions 
-
-**Placed all of the following into a zip file and upload them via the survey link below:**
+## 8) Submission Instructions
+**Place all of the following into a zip file and upload them via the anonymous upload link provided during the survey:**
 - Model files (execution‑ready)
 - Outputs as **CSV** (time‑series)
 - **Diagnostics** (validation plots, skill metrics)
 - **AI usage appendix** and (if possible) **chat histories**
 
-During the survey you will be prompted to include a short description of your approach, assumptions, and any notes on AI usage. 
+During the survey you will be prompted to include a short description of your approach, assumptions, and any notes on AI usage.
 
 ---
 
 ## 9) Survey
-
-Please complete the post‑project survey: **[\[Survey Link\]](https://csiro.qualtrics.com/jfe/form/SV_6opBbEzhMbvLHOC)**
+Please complete the post‑project survey: **[[Survey Link]](https://csiro.qualtrics_6opBbEzhMbvLHOC**  
 You can preview the survey content here: https://github.com/s-spillias/TranslatingMEMs/blob/main/SurveyPreview.md
 
 ---
+
 
 
 ## 10) Workflow Overview
@@ -230,10 +219,10 @@ flowchart TB
 
 ---
 
+
 **Note**: This workflow integrates AI-assisted coding throughout all phases. Participants should leverage LLM coding agents to navigate data processing, model calibration, and protocol implementation steps.
 
 ## 12) Contacts & Support
-
 Questions about modelling or AI tool usage? Get in touch:
 - **scott.spillias@csiro.au**
 - **kieran.murphy@utas.edu.au**
