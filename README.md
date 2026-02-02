@@ -203,7 +203,7 @@ flowchart TB
 
 
 ### 🔗 **External Resources**
-- **Dahood et al. 2020 Paper**: https://doi.org/10.1016/j.biocon.2020.108766
+- **Dahood et al. 2020 Paper**: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214814
 - **mizer Course**: https://mizer.course.sizespectrum.org/
 - **FishMIP 2.0 ISIMIP3a Protocol**: https://github.com/Fish-MIP/FishMIP2.0_ISIMIP3a
 - **Ortega-Cisneros et al. 2025 - Fishing Effort Mapping**: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EF004826 (See Section 2.2 Step 5)
