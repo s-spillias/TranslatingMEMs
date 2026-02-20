@@ -127,7 +127,7 @@ During the survey you will be prompted to include a short description of your ap
 ---
 
 ## 9) Survey
-Please complete the post‑project survey: **[[Survey Link]](https://csiro.qualtrics_6opBbEzhMbvLHOC**  
+Please complete the post‑project survey: https://csiro.qualtrics.com/jfe/form/SV_6opBbEzhMbvLHOC 
 You can preview the survey content here: https://github.com/s-spillias/TranslatingMEMs/blob/main/SurveyPreview.md
 
 ---
